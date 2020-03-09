@@ -1,10 +1,9 @@
 {
-  "name": "jsvat",
-  "version": "2.1.4",
+  "name": "jsvat-af",
+  "version": "0.0.1",
   "description": "Check the validity of the format of an EU VAT number",
-  "main": "./lib/commonjs/index.js",
-  "module": "./lib/es6/index.js",
-  "jsnext:main": "./lib/es6/index.js",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
     "build": "rimraf lib && yarn build:commonjs && yarn build:es6 && yarn build:amd && yarn build:umd && yarn build:system",
